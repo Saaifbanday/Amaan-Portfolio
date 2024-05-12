@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/042ae01641.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" alt="" class="logo"> -->
+                <h2 class="name"><span>A</span>mman</h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Seo Specialist</p>
+                <h1>Hi am <span>Amman</span> <br> From Chandigarh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section starts here -->
+    <div class="about " id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <!-- <img src="images/user.png" alt=""> -->
+                    <img src="amaan_first_img.jpg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle padding">About Me</h1>
+                    <p> Hi  I'm Amman Masood, and I love everything about AI. I am from the beautiful valleys of
+                    Kashmir, India. After finishing my Bachelor's degree in Computer Applications, I started journey
+                    into the world of digital innovation and search engine optimization (SEO).</p>
+
+                    <p>I've always been passionate about technology and how it shapes our digital landscape. When I'm
+                        not optimizing websites, you'll find me behind the camera, capturing moments and crafting videos
+                        in my free time. Let's connect and explore the endless possibilities together</p>
+
+                    <p></p>
+
+                 <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('expreince')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SEO</span><br>Experienced in leveraging SEO best practices to optimize web content and boost search engine rankings, driving increased online visibility and engagement.</li>
+                            <li><span>Web Develpment</span><br>Html | Css | JavaScript | Php</li>
+                            <li><span>Networking</span><br>CCNA Routing | Switching</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="expreince">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Seo Speacilist at Growth Natives <br>Seasoned in SEO and digital marketing, consistently achieving superior online visibility and performance through strategic campaigns, data-driven insights, and innovative tactics.
+
+                            
+                            </li>
+                            <!-- <li><span>2020-2021</span><br>Customer Support</li> -->
+                            <!-- <li><span>2018-2020</span><br>Medical Representative</li> -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2023</span><br> Bachelors of Computer Applications Bca <br> Islamia College
+                                of Science and Commerce <br>
+                                6.40 Cgpa </li>
+
+
+                            <li><span>2019</span><br>12th Class Commerce <br>
+                            Greenland Business School Kashmir </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- services -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <h2>SEO</h2>
+                    <p>Unlock the full potential of your online presence with expert SEO services tailored to your unique needs and goals. As an experienced SEO specialist, I offer a comprehensive suite of services designed to elevate your website's visibility, drive organic traffic, and maximize your ROI. Whether you're a small business looking to increase local visibility or a global enterprise aiming for top rankings in competitive markets, I have the expertise and strategies to help you succeed</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <!-- <i class="fa-solid fa-crop"></i> -->
+                    <h2>UI/UX</h2>
+                    <p>Elevate your digital presence and captivate your audience with exceptional UI/UX design solutions crafted to delight users and drive conversions. As a skilled UI/UX designer, I offer a range of services aimed at creating intuitive, visually stunning interfaces that seamlessly blend aesthetics with functionality. Whether you're launching a new product, revamping an existing platform, or seeking to enhance user engagement, my expertise in UI/UX design can help you achieve your goals</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+
+                <div>
+                    <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                    <h2>Video Editing</h2>
+                    <p>Transform your raw footage into captivating visual stories that engage, inspire, and leave a lasting impression on your audience. As an experienced video editor, I offer a comprehensive range of editing services designed to elevate your video content and bring your vision to life. Whether you're a content creator, marketer, filmmaker, or business owner, my expertise in video editing can help you achieve your goals and stand out in a crowded digital landscape.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+
+                    <div class="layer">
+                        <h3> Raga Living</h3>
+                        <p>I recently had the opportunity to work on a project called RagaLiving, where I took on the challenge of optimizing their website for better performance and visibility At GrowthNatives, our in-house project, I had the opportunity to take the reins of optimizing our website for enhanced performance and visibility. GrowthNatives isn't just another website; it's a dynamic platform dedicated to driving growth and innovation in the digital realm</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>In House Project</h3>
+                        <p>At GrowthNatives, I spearheaded the pivotal task of optimizing our website, a dynamic platform committed to catalyzing growth and fostering innovation in the digital landscape. This endeavor wasn't merely about enhancing performance and visibility; it was about sculpting an online presence that resonated with our audience and propelled our mission forward. With meticulous attention to detail and a strategic approach, I orchestrated a comprehensive overhaul that elevated user experience, amplified visibility, and solidified our position as trailblazers in the digital sphere.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Li-Fi</h3>
+                        <p>During my college tenure, I embarked on an intriguing project dubbed "LIFI," with the ambitious goal of revolutionizing communication. LIFI, shorthand for Light Fidelity, sought to pioneer a groundbreaking method for transmitting messages between devices utilizing light waves. This endeavor delved into the realm of cutting-edge technology, aiming to harness the speed and efficiency of light to create a seamless and secure communication platform. As I immersed myself in this innovative pursuit, I was driven by the prospect of reshaping how we connect and communicate in the digital age, pushing the boundaries of possibility to unlock new avenues of connectivity.</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact section -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-brands fa-telegram"></i>amaanmasood7@.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6005053498</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100008702895166&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <!-- <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
+                        <a href="https://www.instagram.com/amannreels?igsh=MWQxdTBjZ29jaDh0aA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/amman-masood-79bbb0268?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/CV_2024051117171612.pdf" download class="btn btn2" btn2>Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your mesaage" class="textarea"></textarea>
+                        <button type="submit" class="btn btn2 ">Submit</button>
+                    </form>
+                <!-- <span id="msg"></span>     -->
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 Made with Love by Saif Banday</p>
+        </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+
+    
+</body>
+
+</html>
