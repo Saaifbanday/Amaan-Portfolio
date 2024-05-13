@@ -14,10 +14,11 @@ html{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(background.png); 
-    background-size: cover; 
-    background-position: right;
+    background-image: url(main.jpg); 
+    background-size: contain; 
     background-repeat: no-repeat;
+    background-position: right;
+
    
 }
 .container{
@@ -364,15 +365,14 @@ nav .fa-solid{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(phone-background.png);
+        background-image: url(main.jpg);
         background-size: cover;
-        background-position: left;
-
-        
-        
+        /* background-position: left; */
+        background-position: -50%;
     }
     .header-text{
-        margin-top: 100%;
+        /* margin-top: 100%; */
+        margin-top: 64%;
         font-size: 28px;
     }
     .header-text h1{
