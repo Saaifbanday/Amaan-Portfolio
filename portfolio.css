@@ -429,3 +429,61 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
+@media only screen and (max-width:370px){
+.subtitle{
+    font-size: 24px;
+}
+.header-text h1{
+    font-size: 24px;
+}
+.header-text p{
+    font-size: 28px;
+}
+.about-col2 p{
+    font-size: 13px;
+}
+.tab-titles{
+    padding: -1px 0 14px;
+}
+.tab-contents ul li{
+    font-size: 12px;
+}
+.tab-contents ul li span{
+    font-size: 14px;
+}
+#services{
+    padding: 15px 0;
+}
+.about{
+    padding: 40px 0 2px 0;
+}
+.container{
+    padding: 4px 6%;
+}
+.services-list div{
+    padding: 30px 30px;
+}
+.services-list div h2{
+font-size: 20px;
+}
+.services-list div p{
+    font-size: 12px;
+}
+.btn{
+    padding: 10px 20px;
+}
+form .btn2{
+    padding: 10px 30px;
+}
+#portfolio{
+    padding: 25px 0
+}
+.layer h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.layer p{
+    font-size: 12px;
+}
+}
