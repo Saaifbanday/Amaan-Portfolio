@@ -369,7 +369,7 @@ nav .fa-solid{
 @media only screen and (max-width:600px){
     #header{
         /* background-image: url(main.jpg); */
-        /* background-size: cover; */
+        background-size: cover;
         /* background-position: left ; */
         /* background-position: -50%; */
     }
