@@ -1,5 +1,6 @@
-
-/* this is css */
+/* added newly */
+p.tab-links {
+    margin: 6px 6px;}
 
 *{
     margin: 0;
@@ -119,7 +120,8 @@ width: 100%;
 }
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    /* margin: 20px 0 40px; */
+    margin: 20px 0 20px;
 }
 .tab-links{
     margin-right: 50px;
