@@ -363,12 +363,17 @@ nav .fa-solid{
     /* display: block; */
 }
 @media only screen and (max-width:600px){
-    .header{
+    #header{
         background-image: url(main.jpg);
+        background-size: cover;
+        background-position: left;
+
+        
+        
     }
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 28px;
     }
     .header-text h1{
         font-size: 30px;
@@ -405,7 +410,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .about-col1{
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     .about-col2{
         font-size: 14px;
